@@ -1,0 +1,13 @@
+version: '3'
+services:
+  my-python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-python-app
+    user: 1000:1000  
+    volumes:
+      - ./app:/src/app 
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python ./main.py
