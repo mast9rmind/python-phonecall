@@ -1,0 +1,31 @@
+# Files and directories to exclude from the Docker image context
+
+# Python-related files
+__pycache__
+*.pyc
+*.pyo
+
+# Version control directories
+.git
+.svn
+
+# IDE-specific directories
+.vscode
+.idea
+
+# Project-specific directories that are not needed in the image
+logs
+data
+
+# Docker-related files
+Dockerfile*
+.dockerignore
+
+# Other temporary or build-related files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.pyc
+*.pyo

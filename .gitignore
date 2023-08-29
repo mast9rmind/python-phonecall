@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# PyCharm files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Compiled binary executables
+*.exe
+*.dll
+*.out
+
+# Database files
+*.db
+*.sqlite
+
+# Compiled Web assets
+*.js.map
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Local development settings
+local_settings.py
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+desktop.ini
